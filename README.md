@@ -19,9 +19,9 @@ We aim to select a subset of assets that:
 
 This is formulated as a **binary optimization problem**:
 
-\[
+$\[
 \max \sum_i v_i x_i
-\]
+\]$
 
 Subject to:
 
@@ -37,7 +37,7 @@ Where:
 
 ---
 
-## ⚙️ QUBO Formulation
+## QUBO Formulation
 
 The constrained problem is converted into QUBO using a penalty:
 
