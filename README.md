@@ -47,9 +47,9 @@ $H = -\sum_i v_i x_i + P \left(\sum_i w_i x_i - B\right)^2$
 
 To encode the inequality constraint, **slack variables** are introduced:
 
-\[
+$\[
 \sum_i w_i x_i + \sum_k 2^k s_k = B
-\]
+\]$
 
 This ensures the constraint is satisfied exactly.
 
