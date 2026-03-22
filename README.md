@@ -25,15 +25,15 @@ $\[
 
 Subject to:
 
-\[
+$\[
 \sum_i w_i x_i \leq B
-\]
+\]$
 
 Where:
-- \( x_i \in \{0,1\} \) → select asset or not  
+- $\( x_i \in \{0,1\} \) → select asset or not  
 - \( v_i \) → expected return  
 - \( w_i \) → allocation cost  
-- \( B \) → total budget  
+- \( B \)$ → total budget  
 
 ---
 
@@ -42,7 +42,7 @@ Where:
 The constrained problem is converted into QUBO using a penalty:
 
 \[
-H = -\sum_i v_i x_i + P \left(\sum_i w_i x_i - B\right)^2
+$H = -\sum_i v_i x_i + P \left(\sum_i w_i x_i - B\right)^2$
 \]
 
 To encode the inequality constraint, **slack variables** are introduced:
